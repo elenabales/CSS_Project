@@ -1,0 +1,92 @@
+Font
+ - family: Hebbo (https://fonts.google.com/specimen/Heebo?query=heebo)
+ - weights: 300, 700, 800
+ - base size: 20px
+
+Transition durations: 0.5s
+
+Colors
+ Section 1
+ - background: linear gradient: #9c0ca1, #39065a
+ - height: browser window height
+ - nav:
+	- text color: #ffffff
+	- link hover & active, border-bottom: 2px solid #39065a
+ - heading text color: #ffffff
+ - buttons:
+	- "All courses":
+		- background: #e858ae
+		- text color: #ffffff
+	- "Show me more":
+		- border: #e858ae 
+		- text color: #e858ae
+		- hover:
+			- background: #e858ae 
+			- text color: #ffffff
+ - image hover: scale 1.3
+ - whatsapp button:
+	- background: #4caf50
+	- border color: #ffffff
+	- hover: scale 1.3
+
+ Section 2
+ - heading text color: #9a0f98
+ - heading divider color: #e858ae
+ - subheadings text color: #9a0f98
+ - icons hover: horizontal scale -1 / rotate 180deg
+ 
+ Section 3
+ - background: linear gradient #ffffff00 #39065a
+ - image hover: scale 1.15
+
+ Section 4:
+ - disc background: linear gradient #9a0f98 #ea0599
+ - disc shadow color: #9a0f9833
+ - disc hover: vertically scale -1 / rotate 180deg
+ - number + text border color: #ea0599
+ - numbers:
+	- text color: #acacb3
+	- font weight: 800
+ - text:
+	- text color: #797980
+	- font weight: 700
+
+ Section 5
+ - background: linear gradient: #9c0ca1, #39065a
+ - text color: #ffffff
+ - image hover: horizontally scale -0.75 duration 2s
+ - icon hover: vertically scale -0.5 duration 2s
+
+ Section 6
+ - background: #f9f7fa
+ - quote block:
+	- shadow color: #00000012
+	- border color: #ffc0cb
+	- text color: #000000
+	- subheadings color: #9a0f98
+ 
+ Section 7
+ - offers:
+	- background: linear gradient #9c0ca185, #39065a
+	- border color: #39065a
+	- text color: #ffffff
+	- hover: scale 1.1
+	- recommended:
+		- text color: #ea0599
+		- font weight: 700
+	- price text color: #20e9f8
+	- button "Sign up now":
+		- border: round left and right
+		- hover background: #e858ae
+
+ Section 8
+ - text color: #000000
+ - inputs + textarea border color: #eaeaec
+ - button:
+	- background: linear gradient #ea0599, #9a0f98
+	- hover: horizontally scale to right edge of textarea
+ 
+ Section 9
+ - background: #39065a
+ - text color: #ffffff
+ - copyright symbol: &copy;
