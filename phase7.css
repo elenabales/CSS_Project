@@ -1,0 +1,93 @@
+
+.phase7 hr {
+  width: 8em;
+  height: 1px;
+  background-color: #ea0599;
+}
+.phase7 h1 {
+  text-align: center;
+  color: #9a0f98;
+  margin: 0;
+  padding: 10px 0;
+}
+.content-body {
+  max-width: 1280px;
+  margin:auto;
+  padding: 3em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap:1rem;
+}
+.lateral{
+  max-width: 25%;
+  min-width: 310px;
+}
+.jewish{
+  max-width: 33%;
+  min-width: 410px;
+}
+.lateral,
+.jewish {
+  border-radius: 1em;
+  padding: 1rem;
+  background: linear-gradient(-180deg, #9c0ca185, #39065a);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  transition: 0.2s ease;
+}
+.lateral:hover,.jewish:hover{
+  transform: scale(1.1);
+}
+.recommended {
+  color: #ea0599;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.phase7 span {
+  color: #20e9f8;
+}
+.phase7 button {
+  background: transparent;
+  border:none;
+  font-size: 1.5rem;
+  color:#ffffff;
+}
+ .phase7 button:hover{
+   border-radius: 1em;
+  background:#e858ae;
+ }
+.card_title{
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+.card_info{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+  justify-content: center;
+}
+.card_info>h5{
+  margin:1rem 0;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .lateral{
+    max-width:100%;
+    min-width: 0;
+  }
+  .jewish{
+    max-width:100%;
+    min-width: 0;
+  }
+}

@@ -1,0 +1,68 @@
+.phase6 {
+  background-color: #f9f7fa;
+}
+.phase6 hr {
+  width: 8em;
+  height: 1px;
+  background-color: #ea0599;
+}
+.phase6 h1 {
+  text-align: center;
+  color: #9a0f98;
+  margin: 0;
+  padding: 10px 0;
+}
+.container_phase6 {
+  max-width: 1440px;
+  margin: auto;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+}
+.onethird {
+  position: relative;
+  max-width: 25%;
+  min-width: 420px;
+  height: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  border: 2px solid #ffc0cb;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow:10px 10px 10px 5px #00000012; ;
+  -webkit-box-shadow:10px 10px 10px 5px #00000012;
+}
+.onethird > h3 {
+  color: #9a0f98;
+  /* margin-bottom: 0; */
+}
+.svg_quote {
+  position: absolute;
+  width: 30px;
+  top: -15px;
+  left: 48%;
+}
+.smalldiv {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  gap: 1em;
+}
+.smalldiv > img {
+  width: 2em;
+}
+
+@media only screen and (max-width: 700px) {
+  .onethird {
+    min-width: 100%;
+  }
+}
